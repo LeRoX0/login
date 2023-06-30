@@ -11,9 +11,9 @@ const axios = require('axios');
 
 const mongoose = require("mongoose")
 
-const clientID = '1123981366581792810';
-const clientSecret = 'XQXpqAeBj_lurYDg1O2Ma4tRfIi6cwxj';
-const redirectURI = 'http://localhost:3000/callback';
+const clientID = '';
+const clientSecret = '';
+const redirectURI = '';
 
 mongoose.connect("")
  .then(()=> console.log("connected to db") )
