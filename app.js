@@ -15,7 +15,7 @@ const clientID = '1123981366581792810';
 const clientSecret = 'XQXpqAeBj_lurYDg1O2Ma4tRfIi6cwxj';
 const redirectURI = 'http://localhost:3000/callback';
 
-mongoose.connect("mongodb+srv://AmMar:01096601902@cluster0.ohovb.mongodb.net/tokens")
+mongoose.connect("")
  .then(()=> console.log("connected to db") )
  .catch(()=> console.log("un connected"))
 
